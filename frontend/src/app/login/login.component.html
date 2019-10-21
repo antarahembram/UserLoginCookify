@@ -1,0 +1,31 @@
+<div class="page-wrapper bg-red p-t-100 p-b-100 font-robo">
+        <div class="wrapper wrapper--w960">
+            <div class="card card-2">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <h2 class="title">Login into cookify</h2>
+                    
+                        <div>
+                         <input #username class="input--style-2" type="text" placeholder="UserName">
+                          <input #password class="input--style-2" type="password" placeholder="Password">
+                          <button class="btn btn--radius btn--green" (click)="submitlogindetails(username.value,password.value)" type="submit">Log In</button>
+                    </div>
+                    
+                    
+                    
+                    <div>
+                        <p>New User?</p>
+                        <a style="cursor: pointer" (click)="register()">Register_here</a>
+                        or Signup using 
+                        <a href="#fb">fb</a>&nbsp;
+                        <a href="#google">google</a>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+   

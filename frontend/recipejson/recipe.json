@@ -1,0 +1,90 @@
+{
+  "recipe": [
+    {
+      "id": 1,
+      "image_path": "../../assets/homecomponentassets/images/recipeimage-1.jpg",
+      "recipe_name": "Matar Paneer",
+      "cusine_name": "Indian",
+      "serve": 2,
+      "duration": 1,
+      "published_on": "27-05-2019",
+      "master_name": "Rishav Diwedi",
+      "rating_value": 2.3
+    },
+    {
+      "id": 2,
+      "image_path": "../../assets/homecomponentassets/images/recipeimage-1.jpg",
+      "recipe_name": "Matar Paneer",
+      "cusine_name": "Indian",
+      "serve": 2,
+      "duration": 1,
+      "published_on": "27-05-2019",
+      "master_name": "Rishav Diwedi",
+      "rating_value": 2.3
+    },
+    {
+      "id": 3,
+      "image_path": "../../assets/homecomponentassets/images/recipeimage-1.jpg",
+      "recipe_name": "Matar Paneer",
+      "cusine_name": "Indian",
+      "serve": 2,
+      "duration": 1,
+      "published_on": "27-05-2019",
+      "master_name": "Rishav Diwedi",
+      "rating_value": 2.3
+    },
+    {
+      "id": 4,
+      "image_path": "../../assets/homecomponentassets/images/recipeimage-1.jpg",
+      "recipe_name": "Matar Paneer",
+      "cusine_name": "Indian",
+      "serve": 2,
+      "duration": 1,
+      "published_on": "27-05-2019",
+      "master_name": "Rishav Diwedi",
+      "rating_value": 2.3
+    }
+  ],
+  "master": [
+    {
+      "id": 1,
+      "image_path": "../../assets/homecomponentassets/images/team-1.png",
+      "master_name": "Rishv Diwedi",
+      "cusine_name": [
+        "Indian",
+        "Chinese",
+        "Italian"
+      ]
+    },
+    {
+      "id": 2,
+      "image_path": "../../assets/homecomponentassets/images/team-1.png",
+      "master_name": "Rishv Diwedi",
+      "cusine_name": [
+        "Indian",
+        "Chinese",
+        "Italian"
+      ]
+    },
+    {
+      "id": 3,
+      "image_path": "../../assets/homecomponentassets/images/team-1.png",
+      "master_name": "Rishv Diwedi",
+      "cusine_name": [
+        "Indian",
+        "Chinese",
+        "Italian"
+      ]
+    },
+    {
+      "id": 4,
+      "image_path": "../../assets/homecomponentassets/images/team-1.png",
+      "master_name": "Rishv Diwedi",
+      "cusine_name": [
+        "Indian",
+        "Chinese",
+        "Italian"
+      ]
+    }
+  ]
+}

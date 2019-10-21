@@ -1,0 +1,54 @@
+
+<section class="testimonial-area" id="trending_page">
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">Trending Recipe</h5>
+                        <h3 class="dark-color">Loved by Many</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div
+  ng2-carouselamos
+  [width]="1000"
+  [items]=recipe
+  (onSelectedItem)="tr($event.item.id)"
+  [$item]="itemTemplate"
+  [$prev]="prevTemplate"
+  [$next]="nextTemplate" >
+</div>
+            <div class="row">
+                    <div class="col-xs-12">
+                        <div class="team-slide">
+
+                                <ng-template #prevTemplate>
+                                                <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                                                                <div class="box-icon">
+                                                                    <i class="lnr lnr-chevron-left"></i>
+                                                                </div>
+                                                        </div>
+                                      </ng-template>
+                            
+
+<ng-template let-item let-i="index" #itemTemplate >
+
+    <app-recipecard [recipe_name]="item.recipe_name" [image_path]="item.image_path" [cusine_name]="item.cusine_name" [serve]="item.serve" [duration]="item.duration" [published_on]="item.published_on" [master_name]="item.master_name" [rating_value]="item.rating_value" ></app-recipecard>
+
+</ng-template>
+
+
+<ng-template #nextTemplate>
+                <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="box-icon">
+                                    <i class="lnr lnr-chevron-right"></i>
+                                </div>
+                        </div>
+</ng-template>
+</div>
+</div>
+</div>
+</div>
+</section>

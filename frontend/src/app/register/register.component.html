@@ -1,0 +1,47 @@
+
+ <div class="page-wrapper bg-red p-t-100 p-b-100 font-robo">
+        <div class="wrapper wrapper--w960">
+            <div class="card card-2">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <h2 class="title">Register with cookify</h2>
+                    
+                        <div>
+                            <input #name class="input--style-2" type="text" placeholder="Name" name="name" required>
+                            <input #email class="input--style-2" type="text" placeholder="Email" name="email" required>
+                            <input #username class="input--style-2" type="text" placeholder="UserName" name="UserName">
+                            <input #password class="input--style-2" type="password" placeholder="Password" name="Password">
+                            <input #city class="input--style-2" type="text" placeholder="City" name="city">
+                            <input #state class="input--style-2" type="text" placeholder="State" name="state">
+                            <input #country class="input--style-2" type="text" placeholder="Country" name="country">
+                            <input #age class="input--style-2" type="text" placeholder="Age" name="age">
+                            <div class="input--style-2">
+                                        <select #gender name="gender" class="input--style-2">
+                                            <option disabled="disabled" selected="selected">Gender</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+
+                            <button class="btn btn--radius btn--green" type="submit" (click)="registerUser(name.value,email.value,username.value,password.value,city.value,state.value,country.value,age.value,gender.value)">Register</button>
+                        </div>
+                    
+
+
+                    <div>
+                        signup using
+                        <a href="#fb">fb</a>&nbsp;
+                        <a href="#google">google</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+

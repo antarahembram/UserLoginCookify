@@ -1,0 +1,64 @@
+
+<section class="testimonial-area" id="master_page">
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                        <div class="page-title text-center">
+                                <h5 class="title">Master Blasts</h5>
+                                <h3 class="dark-color">Master's of the Week</h3>
+                                <div class="space-60"></div>
+                        </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div
+  ng2-carouselamos
+  [width]="1000"
+  [items]=masterdata
+  [$item]="itemTemplate"
+  (onSelectedItem)="masterid($event.item.id)"
+  [$prev]="prevTemplate"
+  [$next]="nextTemplate" >
+</div>
+            <div class="row">
+                    <div class="col-xs-12">
+                        <div class="team-slide">
+
+                                <ng-template #prevTemplate>
+                                                <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                                                                <div class="box-icon">
+                                                                    <i class="lnr lnr-chevron-left"></i>
+                                                                </div>
+                                                        </div>
+                                      </ng-template>
+                            
+
+<ng-template let-item let-i="index" #itemTemplate>
+      <app-mastercard [master_name]="item.master_name" [image_path]="item.image_path" [cu]="item.cusine_name" ></app-mastercard>
+</ng-template>
+
+
+<ng-template #nextTemplate>
+     
+
+        <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-chevron-right"></i>
+                        </div>
+                </div>
+
+</ng-template>
+</div>
+<div align="center">
+                <div class="space-50"></div>
+                <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.5s">Be a Master</a>
+            </div>
+</div>
+</div>
+</div>
+</section>

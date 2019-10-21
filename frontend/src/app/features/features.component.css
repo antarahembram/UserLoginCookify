@@ -1,0 +1,14 @@
+.mobile-image{
+    animation: barun 3s infinite ease-in-out alternate-reverse;
+}
+@keyframes barun{
+    0%{
+        transform: translateY(0px);
+     
+        
+    }
+    100%{
+        transform: translateY(15px);
+       
+    }
+}
