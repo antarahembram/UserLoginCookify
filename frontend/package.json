@@ -21,7 +21,7 @@
     "@angular/router": "~8.2.8",
     "bootstrap": "^4.3.1",
     "gapi": "0.0.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lodash.isequal": "^4.5.0",
     "ng2-carouselamos": "^4.0.0",
     "rxjs": "~6.4.0",
